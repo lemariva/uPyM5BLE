@@ -1,0 +1,14 @@
+{
+    "name": "uPyBLE",
+    "stubs": {
+        "esp32-micropython-1.11.0": "1.2.0",
+        "esp32-micropython-1.12.0": "1.3.2"
+    },
+    "dev-packages": {
+        "micropy-cli": "*"
+    },
+    "packages": {},
+    "config": {
+        "vscode": true
+    }
+}
