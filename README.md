@@ -3,7 +3,7 @@ This project is about using the BLE module of an M5Stack running MicroPython.
 
 The [M5Stack official](https://github.com/m5stack/M5Stack_MicroPython) and [LoBo](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/) MicroPython stacks still do not support BLE. However, the [official firmware version](http://micropython.org/download#esp32) built with ESP-IDF v4.x has support for BLE (but no for LAN or PPP). 
 
-This project is a code example, which reads the IMU information (in my case an [MPU9250](https://www.invensense.com/products/motion-tracking/9-axis/mpu-9250/) -this varies depending on the M5Stack version) and the button statues, and then publishes and notifies the values using BLE. Furthermore, it offers a write position, which controls the display status (on/off). 
+This project is a code example, which reads the IMU information (in my case an [MPU9250](https://www.invensense.com/products/motion-tracking/9-axis/mpu-9250/) -this varies depending on the M5Stack version) and the button states, and then publishes and notifies the values using BLE. Furthermore, it offers a write position, which controls the display state (on/off). 
 
 ## MicroPython
 Download the version [GENERIC-SPIRAM (built with ESP-IDF v4.x)](http://micropython.org/resources/firmware/esp32spiram-idf4-20191220-v1.12.bin) -for M5Stacks with 16MB RAM- and program your board using the [esptool.py](https://github.com/espressif/esptool) program. If you are flashing MicroPython on your board for the first time then you should first erase the entire flash using:
@@ -32,7 +32,7 @@ The read values included in this example are from:
 * 3-axis magnetometer - 3 ints & accuracy 0.01uT
 * 3-axis gyroscope - 3 ints & accuracy 0.01°/s
 * Temperature sensor - 1 short & accuracy 0.01°C
-* Button A, B and C statues.
+* Button A, B and C states.
 
 | |
 |:--|
