@@ -6,7 +6,7 @@ The [M5Stack official](https://github.com/m5stack/M5Stack_MicroPython) and [LoBo
 This project is a code example, which reads the IMU information (in my case a [MPU9250](https://www.invensense.com/products/motion-tracking/9-axis/mpu-9250/) -this varies depending on the M5Stack version) and the button statues, and then publishes and notifies the values using BLE. Furthermore, it offers a write position, which controls the display status (on/off). 
 
 ## MicroPython
-Download the version [GENERIC-SPIRAM (build with ESP-IDF v4.x)](http://micropython.org/resources/firmware/esp32spiram-idf4-20191220-v1.12.bin) and program your board using the [esptool.py](https://github.com/espressif/esptool) program. If you are flashing MicroPython on your board for the first time then you should first erase the entire flash using:
+Download the version [GENERIC-SPIRAM (built with ESP-IDF v4.x)](http://micropython.org/resources/firmware/esp32spiram-idf4-20191220-v1.12.bin) and program your board using the [esptool.py](https://github.com/espressif/esptool) program. If you are flashing MicroPython on your board for the first time then you should first erase the entire flash using:
 
 ```
 esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
