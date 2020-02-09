@@ -147,8 +147,8 @@ while True:
         display.set_pos(0,90)
         display_text = "x:%0.1f, y:%0.1f, z:%0.1f" % (mag.x, mag.y, mag.z)
         display.print(display_text)
-        display.print("Gyroscope:")
         display.set_pos(0,120)
+        display.print("Gyroscope:")
         display_text = "x:%0.1f, y:%0.1f, z:%0.1f" % (gyro.x, gyro.y, gyro.z)
         display.print(display_text)
     
